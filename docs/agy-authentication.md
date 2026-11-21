@@ -2,6 +2,12 @@
 
 Use a Gemini API key from a Google Cloud project your company has approved for this work. The key's project determines API usage, quota and billing. Ask your Cloud administrator which project and authentication method to use, especially for company source code or data. [Gemini API key guide](https://ai.google.dev/gemini-api/docs/api-key).
 
+## Setup and model choice
+
+![Set the CLI model provider to gemini in ~/.gemini/antigravity-cli/settings.json, export GEMINI_API_KEY, then start agy and use /model. Start with Hydrogen for quick fixes and tests, Neon for multi-step tickets, Argon for planning and review, or Carbon for deep debugging. Use Gemini 3.8 Flash for smaller tasks if Gemini 4 is unavailable.](images/agy-company-key-model-picker.jpg)
+
+Sketchnote generated with Nano Banana 2.1. Model availability depends on the project behind your key. [Full model guide](../.agents/skills/choose-gemini-model/references/models.md).
+
 ## Gemini Developer API key
 
 1. Sign in to Google AI Studio with your work account. In **Dashboard → Projects**, import the approved Cloud project if needed. In **API Keys**, create a key for that project if your organisation allows it. If the project or key creation is unavailable, ask the project administrator for access or the company's approved alternative. [AI Studio API keys](https://aistudio.google.com/apikey).

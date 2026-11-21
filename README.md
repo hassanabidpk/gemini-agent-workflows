@@ -37,7 +37,7 @@ agy
 
 See [Antigravity skill discovery](https://antigravity.google/docs/customization-discovery/) and [model selection](https://antigravity.google/docs/models).
 
-If you use `agy` for company work, you can use a Gemini API key tied to an approved Cloud project or sign in with company-managed access. [CLI authentication for company users](docs/agy-authentication.md).
+If you use `agy` for company work, you can use a Gemini API key tied to an approved Cloud project or sign in with company-managed access. [Illustrated setup and model picker](docs/agy-authentication.md#setup-and-model-choice).
 
 ## Try the workflows in your repo
 
