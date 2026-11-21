@@ -13,6 +13,8 @@ A starter kit for picking a Gemini model and running repeatable engineering task
 | Gemini 3.8 Flash | A fallback for scoped tasks when Gemini 4 is unavailable |
 | Nano Banana 2.1 | Creating or editing an illustration, mockup or sketchnote |
 
+![Sketchnote showing how to configure agy with a company Gemini API key and choose Hydrogen for quick fixes, Neon for multi-step tickets, Argon for planning and review, or Carbon for deep debugging.](docs/images/agy-company-key-model-picker.jpg)
+
 These are starting picks. [See when to switch and how to compare models](.agents/skills/choose-gemini-model/references/models.md).
 
 ## Run a skill
